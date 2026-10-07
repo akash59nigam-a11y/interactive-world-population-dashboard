@@ -5,11 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3000,       // Dev server runs on localhost:3000
-    open: true,       // Auto-opens browser on npm run dev
+    port: 3000,       
+    open: true,     
   },
   build: {
     outDir: 'dist',
-    sourcemap: true,  // Useful for debugging production builds
+    sourcemap: true,  
   },
 })
